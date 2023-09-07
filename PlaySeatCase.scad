@@ -13,10 +13,10 @@ union(){
                 translate([29.5,29.5,0])cylinder(h=19,d=28.8);
             }
             translate([5,-50,2])cube([50,60,50]);
-            translate([50,-105,2])cube([28,160,50]);
+            translate([50,-130,2])cube([28,185,50]);
         }
-        translate([-10,-110,0])cube([65,100,60]);
-        translate([0,-106,10])cube([79,106,4]);
-        translate([66,-95,0]) cylinder(h=100, r=4);
+        translate([-10,-135,0])cube([65,125,60]);
+        translate([0,-131,10])cube([79,123,4]);
+        translate([66,-120,0]) cylinder(h=100, r=4);
     }
 }
